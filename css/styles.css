@@ -244,6 +244,29 @@ img {
     justify-content: center;
     }
 
+.work-item {
+    position: relative;
+}
+
+.work-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 23%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    /* padding: 27px auto; */
+}
+
 .workers-list{
     display: flex;
             
