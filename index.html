@@ -40,7 +40,7 @@
         <section class="banner section">
             <div class="container bancontent">
                 <h1 class="banner-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="banner-click">Заказать услугу</button>
+                <button type="button" class="banner-click" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <section class="benefits section">
@@ -327,5 +327,15 @@
              </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="icon-close" width="11" height="11">
+                    <use href="./images/symbol-defs.svg#icon-close-vector"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
