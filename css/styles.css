@@ -487,12 +487,6 @@ img {
 
 .all-item {
     width: 370px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.all-item:hover .labor-text {
-    transform: translateY(0);
-    opacity: 1;
 }
 
 .labor-cont {
@@ -521,7 +515,7 @@ img {
 
 .all-it-link {
     display: inline-block;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1); transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .all-it-link:hover, .all-it-link:focus{
@@ -529,6 +523,12 @@ img {
     box-shadow: unset;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+.all-it-link:hover .labor-text {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 
 .all-content {
     padding: 20px 24px;
